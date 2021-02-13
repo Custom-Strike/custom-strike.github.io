@@ -107,7 +107,7 @@ function displayCharacters(characters) {
                     $( `        <div class='card'>
                     <div class='card-body'>
                         <div class='card-text'>
-                        <a class="title-name" onclick="myQuack('${val.name}', '${download_url}', '${tU2}', '${desc1}', '${zack}'); return false;" style="cursor:pointer;"> ${mydata.name}</a>
+                        <a class="title-name" onclick="myQuack('${val.name}', '${download_url}', '${tU2}', '${desc1}', '${zack}); return false;" style="cursor:pointer;"> ${mydata.name}</a>
                             ${desc}
                         </div>
     
@@ -224,7 +224,7 @@ var myFunc = function (name, dl_link, thumb, desc, zack) {
     }
 
     let url = 'https://raw.githubusercontent.com/Custom-Strike/' + name + zack + 'addon.json';
-    console.log(url);
+    console.log(url)
     fetch(url)
     .then(res => res.json())
     .then((mydata) => {
