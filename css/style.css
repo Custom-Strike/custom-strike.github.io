@@ -686,7 +686,7 @@ br
 		.nav-icon img {width: 34px;}
 		.nav-icon a {margin: 0 0 0 30px}
 
-		#filter {margin-top: 75px;}
+		#filter {margin-top: 25px;}
 
 		.item-description {margin: 100px 5% 0 5%;}
 		.item-tags {margin: 100px 5% 0 5%;}
@@ -712,5 +712,6 @@ br
 
 		.migi-icon {display:block; margin: 50px 0 0 10px;}
 		.migi-icon img {width: 35px;}
+
 		
 	}
