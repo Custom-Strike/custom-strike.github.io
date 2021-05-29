@@ -712,6 +712,14 @@ br
 
 		.migi-icon {display:block; margin: 50px 0 0 10px;}
 		.migi-icon img {width: 35px;}
+	}
 
-		
+	@media (max-width: 575.92px)
+	{
+		footer {padding-left: 10%; padding-right: 10%; margin-top: 150px;}
+
+		.footer-copyright {margin-top: 50px; justify-content: center;}
+
+		.footer-social {padding: 0 10%; margin-top: 50px;}
+
 	}
